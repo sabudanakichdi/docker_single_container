@@ -23,7 +23,7 @@ Step 4: After successfully creating docker image, next step is to run docker con
  
 Output in yellow box, proves the successful execution of python script.
 
-![Docker Container and Output](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/docker-output.png)
+![Docker Container and Output](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/docker-ouput.png)
 
 Then, run ‘docker ps -ls’ to see the containers list.
 
