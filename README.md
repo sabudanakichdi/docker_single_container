@@ -5,31 +5,29 @@ Created docker image and container to execute simple python script.
 
 Step 1: Created a python file: main.py
 
-![main.py](http://url/to/img.png)
+![main.py](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/main-file.png)
  
 Step 2: Created Dockerfile with environment parameters to run above python script
 
-![DockerFile](http://url/to/img.png)
+![DockerFile](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/dockerfile.png)
  
 Step 3: Ran docker build command to build docker image named docker-python-test
 
-![Docker Image Build](http://url/to/img.png)
+![Docker Image Build](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/docker-image-build.png)
  
 Once successful, to check whether image was created: executed ‘docker images’ to get image list.
 
-![Docker Image List](http://url/to/img.png)
+![Docker Image List](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/docker-image-list.png)
  
 Step 4: After successfully creating docker image, next step is to run docker container of the generated image.  execute 'docker run docker-python-test’
-
-![Docker Container Creation and Run](http://url/to/img.png)
  
 Output in yellow box, proves the successful execution of python script.
 
-![Docker Container and Output](http://url/to/img.png)
+![Docker Container and Output](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/docker-output.png)
 
 Then, run ‘docker ps -ls’ to see the containers list.
 
-![Docker Container List](http://url/to/img.png)
+![Docker Container List](https://github.com/sabudanakichdi/docker_single_container/blob/main/documentation/images/docker-container-list.png)
  
 
 ### Reflection:
