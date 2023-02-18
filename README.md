@@ -1,4 +1,4 @@
-# Docker: Single container, Single Image
+# Docker: Single Image, Single Container
 Created docker image and container to execute simple python script.
 
 ### Steps taken:
